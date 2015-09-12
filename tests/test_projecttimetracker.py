@@ -5,21 +5,21 @@
 test_project-time-tracker
 ----------------------------------
 
-Tests for `project-time-tracker` module.
+Tests for `projecttimetracker` module.
 """
 
 import unittest
 
-from project-time-tracker import project-time-tracker
+from projecttimetracker import projecttimetracker
 
 
-class TestProject-time-tracker(unittest.TestCase):
+class TestProjecttimetracker(unittest.TestCase):
 
     def setUp(self):
         pass
 
     def test_something(self):
-        pass
+        self.assertEqual(projecttimetracker.value, 1);
 
     def tearDown(self):
         pass

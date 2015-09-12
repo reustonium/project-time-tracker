@@ -23,27 +23,27 @@ test_requirements = [
 ]
 
 setup(
-    name='project-time-tracker',
+    name='projecttimetracker',
     version='0.1.0',
     description="CLI for easily tracking how much time you spend on each project",
     long_description=readme + '\n\n' + history,
     author="Andy Ruestow",
     author_email='andy@ruestow.me',
-    url='https://github.com/reustonium/project-time-tracker',
+    url='https://github.com/reustonium/projecttimetracker',
     packages=[
-        'project-time-tracker',
+        'projecttimetracker',
     ],
-    package_dir={'project-time-tracker':
-                 'project-time-tracker'},
+    package_dir={'projecttimetracker':
+                 'projecttimetracker'},
     include_package_data=True,
     install_requires=requirements,
     license="BSD",
     zip_safe=False,
-    keywords='project-time-tracker',
+    keywords='projecttimetracker',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: BSD License',
+        'License :: OSI Approved :: GNU General Public License v2 (GPLv2)',
         'Natural Language :: English',
         "Programming Language :: Python :: 2",
         'Programming Language :: Python :: 2.6',
