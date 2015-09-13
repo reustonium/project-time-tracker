@@ -8,8 +8,8 @@ Project Time Tracker
 .. image:: http://codecov.io/github/reustonium/project-time-tracker/coverage.svg?branch=master
         :target: http://codecov.io/github/reustonium/project-time-tracker?branch=master
 
-.. image:: https://img.shields.io/pypi/v/project-time-tracker.svg
-        :target: https://pypi.python.org/pypi/project-time-tracker
+.. image:: https://img.shields.io/pypi/v/projecttimetracker.svg
+        :target: https://pypi.python.org/pypi/projecttimetracker
 
 
 CLI for easily tracking how much time you spend on each project
