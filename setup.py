@@ -14,8 +14,11 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read().replace('.. :changelog:', '')
 
+version = '0.1.0'
+
 requirements = [
     # TODO: put package requirements here
+    'Click'
 ]
 
 test_requirements = [
@@ -24,7 +27,7 @@ test_requirements = [
 
 setup(
     name='projecttimetracker',
-    version='0.1.0',
+    version=version,
     description="CLI for easily tracking how much time you spend on each project",
     long_description=readme + '\n\n' + history,
     author="Andy Ruestow",
@@ -40,6 +43,10 @@ setup(
     license="GPLv2",
     zip_safe=False,
     keywords='projecttimetracker',
+    entry_points='''
+        [console_scripts]
+        trk=projecttimetracker.projecttimetracker:cli
+    ''',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
