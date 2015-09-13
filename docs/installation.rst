@@ -4,9 +4,9 @@ Installation
 
 At the command line::
 
-    $ easy_install project-time-tracker
+    $ easy_install projecttimetracker
 
 Or, if you have virtualenvwrapper installed::
 
-    $ mkvirtualenv project-time-tracker
-    $ pip install project-time-tracker
+    $ mkvirtualenv projecttimetracker
+    $ pip install projecttimetracker

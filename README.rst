@@ -14,7 +14,7 @@ Project Time Tracker
 
 CLI for easily tracking how much time you spend on each project
 
-* Free software: BSD license
+* Free software: GPL V2 License
 * Documentation: https://project-time-tracker.readthedocs.org.
 
 Features

@@ -37,7 +37,7 @@ setup(
                  'projecttimetracker'},
     include_package_data=True,
     install_requires=requirements,
-    license="BSD",
+    license="GPLv2",
     zip_safe=False,
     keywords='projecttimetracker',
     classifiers=[
