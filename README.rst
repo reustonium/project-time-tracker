@@ -5,7 +5,10 @@ Project Time Tracker
 .. image:: https://img.shields.io/travis/reustonium/project-time-tracker.svg
         :target: https://travis-ci.org/reustonium/project-time-tracker
 
-.. image:: https://codecov.io/github/reustonium/project-time-tracker/coverage.svg?branch=master
+.. image:: https://coveralls.io/repos/reustonium/project-time-tracker/badge.svg?branch=master&service=github
+        :target: https://coveralls.io/github/reustonium/project-time-tracker?branch=master
+
+.. image:: https://codecov.io/github/reustonium/cookiecutter/project-time-tracker.svg?branch=master
         :target: https://codecov.io/github/reustonium/project-time-tracker?branch=master
 
 .. image:: https://img.shields.io/pypi/v/project-time-tracker.svg
