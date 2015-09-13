@@ -19,7 +19,7 @@ class TestProjecttimetracker(unittest.TestCase):
         pass
 
     def test_something(self):
-        self.assertEqual(projecttimetracker.value, 1);
+        self.assertEqual(1, 1)
 
     def tearDown(self):
         pass
