@@ -5,7 +5,7 @@ Credits
 Development Lead
 ----------------
 
-* Andy Ruestow <andy@ruestow.me>
+* Andy Ruestow <andrew.ruestow@gmail.com>
 
 Contributors
 ------------

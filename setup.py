@@ -31,7 +31,7 @@ setup(
     description="CLI for easily tracking how much time you spend on each project",
     long_description=readme + '\n\n' + history,
     author="Andy Ruestow",
-    author_email='andy@ruestow.me',
+    author_email='andrew.ruestow@gmail.com',
     url='https://github.com/reustonium/projecttimetracker',
     packages=[
         'projecttimetracker',
